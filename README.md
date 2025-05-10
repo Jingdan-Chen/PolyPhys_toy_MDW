@@ -66,7 +66,7 @@ Simulation parameters are controlled through JSON configuration files in the `ex
 - Model parameters
 
 Example configuration:
-```json
+```python
 {
     "I0": 0.0258,      // Initial concentration of initiator
     "n_max": 300,      // Maximum polymerization degree considered
