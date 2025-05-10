@@ -1,0 +1,16 @@
+{
+    "I0": 0.0258,      // Initial concentration of initiator
+    "n_max": 600,    // Maximum polymerization degree considered
+    "ending_thresh": 0.85, // Threshold for ending the simulation, transformation of [M]
+    "max_time": 200.0,  // Maximum time for the simulation, unit: min
+    "dt": 0.000001,     // Time step for the simulation, unit: min
+    "flag1": true,  // Flag for self-initiation
+    "flag2": true,  // Flag for depolymerization
+    "flag3": true,  // Flag for CT to monomer
+    "flag4": true,  // if using decayed kp
+    "flag5": false,  // if depreciate ktc
+    "x": 1,       // x=1 or 2 for self-initiation
+    "y": 1,       // y=1 or 2 for self-initiation
+    "T": 90.0
+}
+  
