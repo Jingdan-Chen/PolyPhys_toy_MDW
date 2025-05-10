@@ -68,19 +68,19 @@ Simulation parameters are controlled through JSON configuration files in the `ex
 Example configuration:
 ```python
 {
-    "I0": 0.0258,      // Initial concentration of initiator
-    "n_max": 300,      // Maximum polymerization degree considered
-    "ending_thresh": 0.85, // Threshold for ending simulation
-    "max_time": 200.0,  // Maximum simulation time (min)
-    "dt": 0.000001,     // Time step for simulation (min)
-    "flag1": true,      // Enable self-initiation
-    "flag2": true,      // Enable depolymerization
-    "flag3": true,      // Enable CT to monomer
-    "flag4": false,     // Enable decay for kp
-    "flag5": true,      // Enable ktc depreciation
-    "x": 1,             // x=1 or 2 for self-initiation
-    "y": 1,             // y=1 or 2 for self-initiation
-    "T": 90.0           // Temperature (°C)
+    "I0": 0.0258,      # Initial concentration of initiator
+    "n_max": 300,      # Maximum polymerization degree considered
+    "ending_thresh": 0.85, # Threshold for ending simulation
+    "max_time": 200.0,  # Maximum simulation time (min)
+    "dt": 0.000001,     # Time step for simulation (min)
+    "flag1": true,      # Enable self-initiation
+    "flag2": true,      # Enable depolymerization
+    "flag3": true,      # Enable CT to monomer
+    "flag4": false,     # Enable decay for kp
+    "flag5": true,      # Enable ktc depreciation
+    "x": 1,             # x=1 or 2 for self-initiation
+    "y": 1,             # y=1 or 2 for self-initiation
+    "T": 90.0           # Temperature (°C)
 }
 ```
 
